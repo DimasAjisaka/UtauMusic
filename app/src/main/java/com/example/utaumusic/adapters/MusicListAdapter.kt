@@ -31,11 +31,11 @@ class MusicListAdapter(private var musicList: List<MusicModels>): RecyclerView.A
                 itemView.setOnClickListener { onMusicListClickListener.onMusicListClick(musicList[position]) }
                 if (position == musicList.lastIndex){
                     val params = itemView.layoutParams as RecyclerView.LayoutParams
-                    params.bottomMargin = 80
+                    params.bottomMargin = 140
                     itemView.layoutParams = params
                 } else if (position == 0) {
                     val params = itemView.layoutParams as RecyclerView.LayoutParams
-                    params.topMargin = 220
+                    params.topMargin = 10
                     itemView.layoutParams = params
                 }
             }

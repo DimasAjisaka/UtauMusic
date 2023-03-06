@@ -50,4 +50,8 @@
     <string name="email">dimasajisakakurniawan@gmail.com</string>
     <string name="title">Title</string>
     <string name="description">Description</string>
+    <string name="um_logo">um_logo</string>
+    <string name="foto_profile">Foto Profile</string>
+    <string name="back">back</string>
+    <string name="icon">icon</string>
 </resources>
